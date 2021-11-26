@@ -1,0 +1,5 @@
+2.1: Linked List
+2.2: Linked List
+2.3: Array **sorted**
+2.4: You will need to move all the elements that come after the new element alphabetically further in memory to ensure binary search continues to work. There may not be room and all the data will need moved and even still there may not be room for a new continuous block of memory for this new array. **Inserting in arrays is slow**
+2.5: Searching - slower than array, but faster than linked list. Inserting: faster than array, b̶u̶t̶ ̶s̶l̶o̶w̶e̶r̶**same amount of time as** linked list.
