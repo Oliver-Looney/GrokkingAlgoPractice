@@ -1,0 +1,8 @@
+3.1: Greet2 is called after Greet, with a parameter of name = "Maggie" passed to both. Greet2 is called inside Greet.
+Book Ans:
+- The greet func is called first, with name = maggie
+- Then the greet func calls greet2 func, with name = maggie
+- At this point, the greet func is in an incomplete, suspended state
+- The current func call is the greet2 func
+- After this func call completes, the greet func will resume
+3.2: StackOverflow
