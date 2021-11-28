@@ -1,0 +1,4 @@
+To recap, here's how Divide and Conquer works:
+
+1 - Figure out the simplest case. This is the base case
+2 - Figure out how to reduce your problem and get to the base case
