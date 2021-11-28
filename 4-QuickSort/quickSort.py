@@ -1,8 +1,13 @@
+import random
+
+
 def quickSort(arr):
     if len(arr) >= 2:
-        pivot = arr[0]
-        lessThanSubArray = [i for i in arr[1:] if i <= pivot]
-        greaterThanSubArray = [i for i in arr[1:] if i > pivot]
+        pivotIndex = random.randint(0, len(arr) - 1)
+        pivot = arr[pivotIndex]
+        slicedArr = arr[0:pivotIndex] + arr[pivotIndex + 1:]
+        lessThanSubArray = [i for i in slicedArr if i <= pivot]
+        greaterThanSubArray = [i for i in slicedArr if i > pivot]
         arr = quickSort(lessThanSubArray) + [pivot] + quickSort(greaterThanSubArray)
     return arr
 
